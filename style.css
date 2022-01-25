@@ -11,15 +11,69 @@ html {
     font-size: 62.5%;
 }
 
-
-
-
-
-.attribution { 
-    font-size: 11px; text-align: center; 
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Light-gray);
+    width: 100vw;
+    height: 100vh;
+    
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.card-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    height: 480px;
+    background-color: var(--White);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.card-container--img {
+    margin: 20px auto;
+}
+
+.card-container--img img {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    
+}
+
+
+
+.title {
+    font-size: 2.2rem;
+    color: var(--Dark-blue);
+    text-align: center;
+    font-weight: 700;
+    line-height: 2.8rem;
+    margin: 0 20px;
+    
+}
+
+.subtitle {
+    color: var(--Grayish-blue);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.credits {
+    text-align: center;
+    color: var(--Grayish-blue);
+    font-size: 1.5rem;
+    
+}
+
+.credits a {
     text-decoration: none;
+    color: var(--Dark-blue);
+
 }
+
+.credits a:hover {
+    color: coral;
+}
+
