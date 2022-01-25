@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 320px;
-    height: 480px;
+    height: 500px;
     background-color: var(--White);
     margin: auto;
     border-radius: 10px;
@@ -58,12 +58,14 @@ body {
     font-size: 1.5rem;
     text-align: center;
     margin: 20px 30px;
+    font-weight: 400;
 }
 
 .credits {
     text-align: center;
     color: var(--Grayish-blue);
     font-size: 1.5rem;
+    margin-bottom: 10px;
     
 }
 
